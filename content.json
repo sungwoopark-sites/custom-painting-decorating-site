@@ -1,0 +1,190 @@
+{
+  "business_name": "Custom Painting & Decorating Inc.",
+  "tagline": "Your Walls. Our Care.",
+  "phone": "949-775-2487",
+  "email": null,
+  "address": "Anaheim, CA (Serving Orange County & Surrounding Areas)",
+  "hours": {
+    "weekdays": "Mon-Fri: 7am-5pm",
+    "weekends": "Sat-Sun: 8am-3pm"
+  },
+  "founded": "2018",
+  "founder": "Cesar Munoz",
+  "badges": [
+    "24-Month Warranty",
+    "Fully licensed, bonded and insured",
+    "Locally Owned & Operated"
+  ],
+  "ratings": {
+    "google": 4.9,
+    "facebook": 4.8
+  },
+  "stats": {
+    "projects_completed": "500+",
+    "years_experience": "2+"
+  },
+  "about_text": "Custom Painting & Decorating Inc. grew from a family legacy rooted in hard work and genuine skill. Cesar Munoz learned the trade while helping his father on painting jobs across Southern California, gaining hands-on experience that shaped his understanding of quality and client care. His commitment to building something meaningful for his family pushed him to earn his painting license, opening the path to a business defined by integrity and craftsmanship. In 2018, Cesar and his father turned their shared passion into a family-operated company dedicated to serving homeowners and businesses throughout Orange County. Their team brings exceptional attention to detail, reliable communication, and a deep sense of pride to every project. Today, the company continues to honor its roots by delivering personalized service and lasting results that elevate every space.",
+  "services": {
+    "residential": [
+      {
+        "name": "Interior Painting",
+        "description": "Interior painting services bring clarity, warmth, and balance to living spaces and work environments. We paint all the walls, ceilings, doors, and trim with precision and clean lines. Our professional painters maintain a tidy workspace and deliver finishes that elevate the feel of your interior.",
+        "image": "assets/images/service-interior.jpg"
+      },
+      {
+        "name": "Exterior Painting",
+        "description": "Our exterior house painting services protect siding, stucco, brick, and trim while improving curb appeal. We prepare surfaces thoroughly and apply high-quality coatings designed for California conditions. The result is a fresh coat that enhances durability, color retention, and overall property appearance.",
+        "image": "assets/images/service-exterior.jpg"
+      },
+      {
+        "name": "Cabinet Painting",
+        "description": "Cabinet painting and refinishing offers a cost-effective way to update kitchens and bathrooms without replacement. Our process includes cleaning, sanding, priming, and smooth finish application for long-lasting results. Cabinets receive a renewed look with durable coatings designed for daily use.",
+        "image": "assets/images/service-cabinet.jpg"
+      },
+      {
+        "name": "Drywall Repair",
+        "description": "Our drywall installation and repair services restore walls and ceilings with seamless results. Whether patching holes, fixing damaged sections, or installing new drywall, our team delivers clean finishes ready for paint.",
+        "image": "assets/images/service-drywall.jpg"
+      },
+      {
+        "name": "Trim & Base Boards",
+        "description": "Professional trim and baseboard painting for a polished, finished look in any room.",
+        "image": null
+      }
+    ],
+    "commercial": [
+      {
+        "name": "Commercial Interior Painting",
+        "description": "We support offices, retail spaces, and commercial buildings with efficient, professional painting services. Our team works around business schedules to minimize disruption while delivering clean, durable results.",
+        "image": "assets/images/service-commercial.jpg"
+      },
+      {
+        "name": "Commercial Exterior Painting",
+        "description": "Professional exterior painting for commercial buildings and properties.",
+        "image": null
+      },
+      {
+        "name": "Commercial Drywall Services",
+        "description": "Full drywall installation and repair services for commercial properties.",
+        "image": null
+      },
+      {
+        "name": "Commercial Property Management",
+        "description": "Property managers rely on our organized process and consistent quality for ongoing painting and maintenance needs.",
+        "image": null
+      }
+    ]
+  },
+  "testimonials": [
+    {
+      "name": "Rene Ellis",
+      "source": "Google",
+      "text": "The job was done excellently and looks beautiful."
+    },
+    {
+      "name": "Tim Clarke",
+      "source": "Google",
+      "text": "Very happy with the experience and results. Cesar was great to work with and Edwin exceeded our expectations with regard to the quality of the work from start to finish. I will be reaching out to Cesar again with regard to another project."
+    },
+    {
+      "name": "Diane",
+      "source": "Google",
+      "text": "Custom Painting did an excellent job in my home. They painted the walls and doors, repaired patches and holes, and even removed the blinds to paint behind them. The quality of the work is beautiful—clean lines, smooth walls, and everything looks brand new. Candy and Greg were fantastic. They are very professional, detail-oriented, respectful, and always on time. Jessica and Marcella also communicated clearly and quickly throughout the entire process. I highly recommend Custom Painting. Great communication, excellent work, and a team you can trust. I would definitely use them again."
+    },
+    {
+      "name": "LeeBo",
+      "source": "Google",
+      "text": "These guys are fantastic. Juan and Victor are amazing. Great work ethics and friendly. Do fantastic work painting and respectful. They did a 6 day project painting all the interior of my home; 4 bedrooms, 2 bathrooms. Definitely would recommend anyone interested in getting their property painted."
+    },
+    {
+      "name": "Jenny Shang",
+      "source": "Google",
+      "text": "They are great. Very professional. Will hire them again."
+    },
+    {
+      "name": "Ryan Lowen",
+      "source": "Google",
+      "text": "We have used Custom Painting & Decorating twice now, and will be using them a third and fourth time in the future. They are great! They do great work, they are efficient, easy to communicate with, and reasonable on price. Mario, Juan, & Alex were our crew this time, they painted our ceiling, an accent wall, and installed a wall of shiplap. Thrilled with the work, would highly recommend!"
+    }
+  ],
+  "process": [
+    {
+      "step": 1,
+      "title": "Consultation & Quote",
+      "description": "We begin with a detailed consultation to understand your goals, surfaces, and specific needs. Our team evaluates the scope of your painting project and provides a clear, accurate quote so you can plan with confidence and peace of mind."
+    },
+    {
+      "step": 2,
+      "title": "Preparation & Protection",
+      "description": "Proper preparation sets the foundation for quality results. We carefully protect furniture, flooring, and surrounding areas while repairing surfaces, addressing drywall issues, and preparing interior and exterior areas for a smooth, even finish."
+    },
+    {
+      "step": 3,
+      "title": "Professional Painting",
+      "description": "Our professional painters apply high-quality coatings with precision and attention to detail. From interior walls to exterior surfaces, each coat is applied with care to deliver consistent coverage, vibrant colors, and long-lasting durability."
+    },
+    {
+      "step": 4,
+      "title": "Final Walkthrough",
+      "description": "Once painting is complete, we walk the space with you to review every detail. Our team ensures all work meets your expectations, leaving your home or business clean, refreshed, and ready to enjoy."
+    }
+  ],
+  "why_choose_us": [
+    {
+      "title": "Personalized Approach",
+      "description": "We take the time to listen to your needs and ensure that every detail of your project aligns with your vision."
+    },
+    {
+      "title": "Exceptional Quality",
+      "description": "Our work is built to last. Also includes minimum 2 year warranty. We use only the finest materials and follow industry-leading standards, ensuring that your painted surfaces maintain their beauty and durability for years to come."
+    },
+    {
+      "title": "Prompt, Professional Service",
+      "description": "We respect your time. From your first inquiry to the final brushstroke, we promise clear communication and a professional approach every step of the way."
+    },
+    {
+      "title": "24-Month Warranty",
+      "description": "We offer workmanship warranties based on the paint products and services selected for your project. This approach ensures honest coverage, realistic expectations, and confidence in the quality of our work."
+    }
+  ],
+  "service_areas": ["Anaheim, CA", "Brea, CA", "Capistrano Beach, CA", "Corona del Mar, CA", "Costa Mesa, CA", "Dana Point, CA", "Foothill Ranch, CA", "Fullerton, CA", "Huntington Beach, CA", "Irvine, CA", "Laguna Beach, CA", "Laguna Hills, CA", "Laguna Niguel, CA", "Mission Viejo, CA", "Newport Beach, CA", "Orange, CA", "Placentia, CA", "San Clemente, CA", "Santa Ana, CA", "Villa Park, CA"],
+  "brand_colors": {
+    "primary": "#2A4A72",
+    "accent": "#C4A96A",
+    "secondary": "#5B8DB4",
+    "light": "#F5F2EC"
+  },
+  "social_links": {},
+  "paint_brands": ["Sherwin Williams", "Dunn Edwards"],
+  "images_downloaded": [
+    "assets/images/logo.png",
+    "assets/images/hero-bg.jpg",
+    "assets/images/about-bg.jpg",
+    "assets/images/service-residential.jpg",
+    "assets/images/service-commercial.jpg",
+    "assets/images/service-exterior.jpg",
+    "assets/images/service-interior.jpg",
+    "assets/images/service-cabinet.jpg",
+    "assets/images/service-drywall.jpg",
+    "assets/images/portfolio-1.jpg",
+    "assets/images/portfolio-2.jpg",
+    "assets/images/portfolio-3.jpg",
+    "assets/images/portfolio-4.jpg",
+    "assets/images/portfolio-5.jpg",
+    "assets/images/portfolio-6.jpg",
+    "assets/images/why-us.jpg",
+    "assets/images/badge-trust.jpg",
+    "assets/images/badge-google.png",
+    "assets/images/badge-facebook.png",
+    "assets/images/badge-5star.webp",
+    "assets/images/badge-satisfaction.webp",
+    "assets/images/badge-angi.webp",
+    "assets/images/badge-bbb.webp",
+    "assets/images/badge-google-guaranteed.webp",
+    "assets/images/badge-licensed.webp",
+    "assets/images/blog-1.jpeg",
+    "assets/images/blog-2.jpeg",
+    "assets/images/blog-3.jpeg"
+  ],
+  "original_url": "https://custompainting-inc.com/"
+}

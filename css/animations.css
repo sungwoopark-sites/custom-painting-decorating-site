@@ -1,0 +1,130 @@
+/* ===== Scroll Reveal Animations ===== */
+.reveal {
+  opacity: 0;
+  transform: translateY(28px);
+  transition: opacity 0.65s ease, transform 0.65s ease;
+}
+
+.reveal.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Staggered delay for grid children */
+.services-grid .service-card:nth-child(2) { transition-delay: 0.1s; }
+.services-grid .service-card:nth-child(3) { transition-delay: 0.2s; }
+.services-grid .service-card:nth-child(4) { transition-delay: 0.3s; }
+.services-grid .service-card:nth-child(5) { transition-delay: 0.4s; }
+.testimonials-grid .testimonial-card:nth-child(2) { transition-delay: 0.1s; }
+.testimonials-grid .testimonial-card:nth-child(3) { transition-delay: 0.2s; }
+.testimonials-grid .testimonial-card:nth-child(4) { transition-delay: 0.15s; }
+.testimonials-grid .testimonial-card:nth-child(5) { transition-delay: 0.25s; }
+.testimonials-grid .testimonial-card:nth-child(6) { transition-delay: 0.35s; }
+.process-step:nth-child(3) { transition-delay: 0.1s; }
+.process-step:nth-child(5) { transition-delay: 0.2s; }
+.process-step:nth-child(7) { transition-delay: 0.3s; }
+.why-item:nth-child(2) { transition-delay: 0.1s; }
+.why-item:nth-child(3) { transition-delay: 0.2s; }
+.why-item:nth-child(4) { transition-delay: 0.3s; }
+.portfolio-item:nth-child(2) { transition-delay: 0.1s; }
+.portfolio-item:nth-child(3) { transition-delay: 0.2s; }
+.portfolio-item:nth-child(4) { transition-delay: 0.1s; }
+.portfolio-item:nth-child(5) { transition-delay: 0.2s; }
+.portfolio-item:nth-child(6) { transition-delay: 0.3s; }
+
+/* Header scroll effect */
+.site-header.scrolled {
+  box-shadow: 0 4px 30px rgba(0,0,0,0.12);
+}
+
+/* FAQ open animation */
+.faq-item .faq-answer {
+  animation: fadeDown 0.25s ease;
+}
+
+@keyframes fadeDown {
+  from { opacity: 0; transform: translateY(-8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Stat counter pulse */
+.stat-num {
+  animation: none;
+}
+
+.about-stats.visible .stat-num {
+  animation: countUp 0.5s ease;
+}
+
+@keyframes countUp {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Float CTA entrance */
+.cta-float {
+  animation: floatIn 0.6s ease 1.5s both;
+}
+
+@keyframes floatIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Hero entrance */
+.hero-text h1 {
+  animation: heroTitle 0.8s ease 0.2s both;
+}
+
+.hero-eyebrow {
+  animation: heroTitle 0.6s ease 0.1s both;
+}
+
+.hero-sub {
+  animation: heroTitle 0.6s ease 0.35s both;
+}
+
+.hero-badges {
+  animation: heroTitle 0.6s ease 0.45s both;
+}
+
+.hero-actions {
+  animation: heroTitle 0.6s ease 0.55s both;
+}
+
+.hero-ratings {
+  animation: heroTitle 0.6s ease 0.65s both;
+}
+
+.hero-form-card {
+  animation: heroCard 0.8s ease 0.4s both;
+}
+
+@keyframes heroTitle {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes heroCard {
+  from { opacity: 0; transform: translateY(30px) scale(0.97); }
+  to { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  .reveal,
+  .reveal.visible,
+  .hero-text h1,
+  .hero-eyebrow,
+  .hero-sub,
+  .hero-badges,
+  .hero-actions,
+  .hero-ratings,
+  .hero-form-card,
+  .cta-float {
+    animation: none;
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+}

@@ -1,0 +1,731 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Custom Painting &amp; Decorating Inc. | Orange County House Painters</title>
+  <meta name="description" content="Custom Painting &amp; Decorating Inc. — family-owned house painters in Orange County, CA. Interior, exterior, cabinet painting &amp; drywall. Licensed, insured. 24-month warranty. Call 949-775-2487.">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Custom Painting &amp; Decorating Inc. | Orange County House Painters">
+  <meta property="og:description" content="Family-owned painting contractors serving Orange County, CA since 2018. Interior &amp; exterior painting, cabinet refinishing, drywall. 24-month warranty. Call 949-775-2487.">
+  <meta property="og:image" content="https://custom-painting-decorating-site.vercel.app/assets/images/hero-bg.jpg">
+  <meta property="og:url" content="https://custom-painting-decorating-site.vercel.app">
+  <meta property="og:type" content="website">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="assets/images/logo.png">
+
+  <!-- Fonts (non-blocking) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@700;900&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@700;900&display=swap"></noscript>
+
+  <!-- LCP preload -->
+  <link rel="preload" as="image" href="assets/images/hero-bg.jpg">
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/animations.css">
+
+  <!-- JSON-LD Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "@id": "https://custom-painting-decorating-site.vercel.app",
+    "name": "Custom Painting & Decorating Inc.",
+    "url": "https://custom-painting-decorating-site.vercel.app",
+    "logo": "https://custom-painting-decorating-site.vercel.app/assets/images/logo.png",
+    "image": "https://custom-painting-decorating-site.vercel.app/assets/images/hero-bg.jpg",
+    "description": "Family-owned house painters in Orange County, CA. Interior painting, exterior painting, cabinet painting, and drywall services. Licensed and insured with 24-month warranty.",
+    "telephone": "949-775-2487",
+    "foundingDate": "2018",
+    "areaServed": "Orange County, CA",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Anaheim",
+      "addressRegion": "CA",
+      "addressCountry": "US"
+    },
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
+        "opens": "07:00",
+        "closes": "17:00"
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Saturday","Sunday"],
+        "opens": "08:00",
+        "closes": "15:00"
+      }
+    ],
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.9",
+      "reviewCount": "500"
+    },
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Painting Services",
+      "itemListElement": [
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Interior Painting"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Exterior Painting"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Cabinet Painting"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Drywall Repair"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Commercial Painting"}}
+      ]
+    }
+  }
+  </script>
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="site-header" id="site-header">
+    <div class="container header-inner">
+      <a href="#" class="logo-link">
+        <img src="assets/images/logo.png" alt="Custom Painting &amp; Decorating Inc." class="logo" width="140" height="84">
+      </a>
+      <nav class="main-nav" id="main-nav" aria-label="Main navigation">
+        <ul>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#testimonials">Reviews</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="header-cta">
+        <a href="tel:9497752487" class="header-phone">949-775-2487</a>
+        <a href="#contact" class="btn btn-primary">Free Quote</a>
+      </div>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+      <div class="hero-bg" style="background-image: url('assets/images/hero-bg.jpg')"></div>
+      <div class="hero-overlay"></div>
+      <div class="container hero-content">
+        <div class="hero-text">
+          <p class="hero-eyebrow">Orange County's Trusted Painting Contractors</p>
+          <h1>Your Walls. Our Care.</h1>
+          <p class="hero-sub">Premier house painters in Orange County, CA. Interior &amp; exterior painting with precision, care, and a 24-month warranty.</p>
+          <div class="hero-badges">
+            <span class="badge"><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M8 1L9.8 5.6H14.8L10.7 8.5L12.3 13.1L8 10.2L3.7 13.1L5.3 8.5L1.2 5.6H6.2L8 1Z" fill="#C4A96A"/></svg> 24-Month Warranty</span>
+            <span class="badge"><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M8 1a7 7 0 100 14A7 7 0 008 1zm3.5 5.5L7 11 4.5 8.5l1-1L7 9l3.5-3.5 1 1z" fill="#C4A96A"/></svg> Licensed &amp; Insured</span>
+            <span class="badge"><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M8 1a7 7 0 100 14A7 7 0 008 1zm3.5 5.5L7 11 4.5 8.5l1-1L7 9l3.5-3.5 1 1z" fill="#C4A96A"/></svg> Family Owned</span>
+          </div>
+          <div class="hero-actions">
+            <a href="#contact" class="btn btn-primary btn-lg">Schedule a Free Estimate</a>
+            <a href="tel:9497752487" class="btn btn-outline-white btn-lg">Call 949-775-2487</a>
+          </div>
+          <div class="hero-ratings">
+            <div class="rating-item">
+              <img loading="lazy" src="assets/images/badge-google.png" alt="Google" width="24" height="24">
+              <span class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+              <span>4.9 Google</span>
+            </div>
+            <div class="rating-item">
+              <img loading="lazy" src="assets/images/badge-facebook.png" alt="Facebook" width="24" height="24">
+              <span class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+              <span>4.8 Facebook</span>
+            </div>
+          </div>
+        </div>
+        <div class="hero-form-wrap">
+          <div class="hero-form-card">
+            <h2>Request a Free Quote</h2>
+            <form class="hero-form" action="https://formspree.io/f/xjkvvqrb" method="POST">
+              <div class="form-row">
+                <input type="text" name="first_name" placeholder="First Name" required>
+                <input type="text" name="last_name" placeholder="Last Name" required>
+              </div>
+              <input type="email" name="email" placeholder="Email Address" required>
+              <input type="tel" name="phone" placeholder="Phone Number" required>
+              <select name="service" required>
+                <option value="" disabled selected>Select Your Service</option>
+                <option>Interior Painting</option>
+                <option>Exterior Painting</option>
+                <option>Cabinet Painting</option>
+                <option>Drywall Repair</option>
+                <option>Trim &amp; Base Boards</option>
+                <option>Commercial Painting</option>
+              </select>
+              <button type="submit" class="btn btn-primary btn-full">Get My Free Quote</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Trust Badges Bar -->
+    <section class="trust-bar">
+      <div class="container trust-bar-inner">
+        <img loading="lazy" src="assets/images/badge-5star.webp" alt="5 Star Google Rating" class="trust-badge">
+        <img loading="lazy" src="assets/images/badge-satisfaction.webp" alt="100% Satisfaction Guarantee" class="trust-badge">
+        <img loading="lazy" src="assets/images/badge-angi.webp" alt="Angi Certified" class="trust-badge">
+        <img loading="lazy" src="assets/images/badge-bbb.webp" alt="BBB Accredited" class="trust-badge">
+        <img loading="lazy" src="assets/images/badge-google-guaranteed.webp" alt="Google Guaranteed" class="trust-badge">
+        <img loading="lazy" src="assets/images/badge-licensed.webp" alt="Licensed &amp; Insured" class="trust-badge">
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services-section" id="services">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-label">Our Services</span>
+          <h2>Our Expert Painting Services</h2>
+          <p>Our team brings years of experience and professional skill to every project, giving clients a smooth and reliable service experience. We focus on precise preparation, clean work habits, and quality finishes that elevate both residential and commercial spaces.</p>
+        </div>
+
+        <div class="services-tabs">
+          <div class="tab-buttons">
+            <button class="tab-btn active" data-tab="residential">Residential</button>
+            <button class="tab-btn" data-tab="commercial">Commercial</button>
+          </div>
+
+          <div class="tab-content active" id="tab-residential">
+            <div class="services-grid">
+
+              <div class="service-card reveal">
+                <div class="service-img">
+                  <img loading="lazy" src="assets/images/service-interior.jpg" alt="Interior Painting Orange County">
+                </div>
+                <div class="service-body">
+                  <h3>Interior Painting</h3>
+                  <p>Interior painting services bring clarity, warmth, and balance to living spaces and work environments. We paint all the walls, ceilings, doors, and trim with precision and clean lines.</p>
+                </div>
+              </div>
+
+              <div class="service-card reveal">
+                <div class="service-img">
+                  <img loading="lazy" src="assets/images/service-exterior.jpg" alt="Exterior Painting Orange County">
+                </div>
+                <div class="service-body">
+                  <h3>Exterior Painting</h3>
+                  <p>Our exterior house painting services protect siding, stucco, brick, and trim while improving curb appeal. We apply high-quality coatings designed for California conditions.</p>
+                </div>
+              </div>
+
+              <div class="service-card reveal">
+                <div class="service-img">
+                  <img loading="lazy" src="assets/images/service-cabinet.jpg" alt="Cabinet Painting">
+                </div>
+                <div class="service-body">
+                  <h3>Cabinet Painting</h3>
+                  <p>Cabinet painting and refinishing offers a cost-effective way to update kitchens and bathrooms. Our process includes cleaning, sanding, priming, and smooth finish application.</p>
+                </div>
+              </div>
+
+              <div class="service-card reveal">
+                <div class="service-img">
+                  <img loading="lazy" src="assets/images/service-drywall.jpg" alt="Drywall Repair">
+                </div>
+                <div class="service-body">
+                  <h3>Drywall Repair</h3>
+                  <p>Our drywall installation and repair services restore walls and ceilings with seamless results. Whether patching holes or installing new drywall, we deliver finishes ready for paint.</p>
+                </div>
+              </div>
+
+              <div class="service-card reveal">
+                <div class="service-img">
+                  <img loading="lazy" src="assets/images/service-residential.jpg" alt="Trim and Baseboards">
+                </div>
+                <div class="service-body">
+                  <h3>Trim &amp; Base Boards</h3>
+                  <p>Professional trim and baseboard painting for a polished, finished look in any room. Clean lines and careful prep set our trim work apart.</p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="tab-content" id="tab-commercial">
+            <div class="services-grid">
+
+              <div class="service-card reveal">
+                <div class="service-img">
+                  <img loading="lazy" src="assets/images/service-commercial.jpg" alt="Commercial Interior Painting">
+                </div>
+                <div class="service-body">
+                  <h3>Commercial Interior Painting</h3>
+                  <p>We support offices, retail spaces, and commercial buildings with efficient, professional painting services. Our team works around business schedules to minimize disruption.</p>
+                </div>
+              </div>
+
+              <div class="service-card reveal">
+                <div class="service-img">
+                  <img loading="lazy" src="assets/images/service-exterior.jpg" alt="Commercial Exterior Painting">
+                </div>
+                <div class="service-body">
+                  <h3>Commercial Exterior Painting</h3>
+                  <p>Professional exterior painting for commercial buildings and properties with durable coatings built for performance and curb appeal.</p>
+                </div>
+              </div>
+
+              <div class="service-card reveal">
+                <div class="service-img">
+                  <img loading="lazy" src="assets/images/service-drywall.jpg" alt="Commercial Drywall">
+                </div>
+                <div class="service-body">
+                  <h3>Commercial Drywall Services</h3>
+                  <p>Full drywall installation and repair services for commercial properties, delivered on schedule with minimal business disruption.</p>
+                </div>
+              </div>
+
+              <div class="service-card reveal">
+                <div class="service-img">
+                  <img loading="lazy" src="assets/images/service-residential.jpg" alt="Commercial Property Management">
+                </div>
+                <div class="service-body">
+                  <h3>Commercial Property Management</h3>
+                  <p>Property managers rely on our organized process and consistent quality for ongoing painting and maintenance needs across multiple units and buildings.</p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="services-footer reveal">
+          <p>Custom Painting &amp; Decorating Inc. delivers a full range of painting and remodeling services that support every stage of your property's improvement.</p>
+          <a href="#contact" class="btn btn-primary">Get a Free Quote</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about-section" id="about">
+      <div class="container about-grid">
+        <div class="about-img reveal">
+          <img loading="lazy" src="assets/images/about-bg.jpg" alt="Custom Painting &amp; Decorating team at work">
+          <div class="about-stats">
+            <div class="stat">
+              <span class="stat-num">500+</span>
+              <span class="stat-label">Projects Completed</span>
+            </div>
+            <div class="stat">
+              <span class="stat-num">4.9&#9733;</span>
+              <span class="stat-label">Google Rating</span>
+            </div>
+            <div class="stat">
+              <span class="stat-num">2018</span>
+              <span class="stat-label">Est. in Orange County</span>
+            </div>
+          </div>
+        </div>
+        <div class="about-text reveal">
+          <span class="section-label">About Us</span>
+          <h2>Built on Family Values</h2>
+          <p>Custom Painting &amp; Decorating Inc. grew from a family legacy rooted in hard work and genuine skill. Cesar Munoz learned the trade while helping his father on painting jobs across Southern California, gaining hands-on experience that shaped his understanding of quality and client care.</p>
+          <p>His commitment to building something meaningful for his family pushed him to earn his painting license, opening the path to a business defined by integrity and craftsmanship. In 2018, Cesar and his father turned their shared passion into a family-operated company dedicated to serving homeowners and businesses throughout Orange County.</p>
+          <p>Their team brings exceptional attention to detail, reliable communication, and a deep sense of pride to every project. Today, the company continues to honor its roots by delivering personalized service and lasting results that elevate every space.</p>
+          <div class="about-trust">
+            <img loading="lazy" src="assets/images/badge-trust.jpg" alt="Trust certifications" class="trust-collage">
+          </div>
+          <a href="#contact" class="btn btn-primary">Get a Free Quote</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio-section" id="portfolio">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-label">Past Work</span>
+          <h2>Crafted With Care and Precision</h2>
+          <p>Every project in our portfolio reflects the pride, detail, and dedication our team brings to the job site. Our work showcases clean lines, smooth finishes, and transformations that bring clarity and character back to each space.</p>
+        </div>
+        <div class="portfolio-grid">
+          <div class="portfolio-item reveal"><img loading="lazy" src="assets/images/portfolio-1.jpg" alt="Painting project Orange County"></div>
+          <div class="portfolio-item reveal"><img loading="lazy" src="assets/images/portfolio-2.jpg" alt="Interior painting project"></div>
+          <div class="portfolio-item reveal"><img loading="lazy" src="assets/images/portfolio-3.jpg" alt="Exterior painting project"></div>
+          <div class="portfolio-item reveal"><img loading="lazy" src="assets/images/portfolio-4.jpg" alt="Cabinet painting project"></div>
+          <div class="portfolio-item reveal"><img loading="lazy" src="assets/images/portfolio-5.jpg" alt="Custom painting project"></div>
+          <div class="portfolio-item reveal"><img loading="lazy" src="assets/images/portfolio-6.jpg" alt="Residential painting Orange County"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Process Section -->
+    <section class="process-section" id="process">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-label">How It Works</span>
+          <h2>A Smooth Experience from Start to Finish</h2>
+          <p>Our painting process for Orange County projects is designed for clarity, reliability, and outstanding results at every stage.</p>
+        </div>
+        <div class="process-steps">
+          <div class="process-step reveal">
+            <div class="step-number">01</div>
+            <h3>Consultation &amp; Quote</h3>
+            <p>We begin with a detailed consultation to understand your goals, surfaces, and specific needs. Our team evaluates the scope of your painting project and provides a clear, accurate quote so you can plan with confidence and peace of mind.</p>
+          </div>
+          <div class="process-connector"></div>
+          <div class="process-step reveal">
+            <div class="step-number">02</div>
+            <h3>Preparation &amp; Protection</h3>
+            <p>Proper preparation sets the foundation for quality results. We carefully protect furniture, flooring, and surrounding areas while repairing surfaces and preparing interior and exterior areas for a smooth, even finish.</p>
+          </div>
+          <div class="process-connector"></div>
+          <div class="process-step reveal">
+            <div class="step-number">03</div>
+            <h3>Professional Painting</h3>
+            <p>Our professional painters apply high-quality coatings with precision and attention to detail. Each coat is applied with care to deliver consistent coverage, vibrant colors, and long-lasting durability.</p>
+          </div>
+          <div class="process-connector"></div>
+          <div class="process-step reveal">
+            <div class="step-number">04</div>
+            <h3>Final Walkthrough</h3>
+            <p>Once painting is complete, we walk the space with you to review every detail. Our team ensures all work meets your expectations, leaving your home or business clean, refreshed, and ready to enjoy.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section class="why-section" id="why-us">
+      <div class="container why-grid">
+        <div class="why-img reveal">
+          <img loading="lazy" src="assets/images/why-us.jpg" alt="Custom Painting professional at work">
+        </div>
+        <div class="why-text">
+          <span class="section-label">Why Choose Us</span>
+          <h2>Service You Can Feel Confident About</h2>
+          <p>Choosing the right painting company means finding a team that listens, communicates, and delivers results that elevate your property. Custom Painting &amp; Decorating Inc. brings a family-driven work ethic and professional expertise to every project.</p>
+          <div class="why-items">
+            <div class="why-item reveal">
+              <div class="why-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M12 2L13.9 8.3H20.5L15.3 11.9L17.2 18.2L12 14.6L6.8 18.2L8.7 11.9L3.5 8.3H10.1L12 2Z" fill="#C4A96A"/></svg>
+              </div>
+              <div>
+                <h4>Personalized Approach</h4>
+                <p>We take the time to listen to your needs and ensure that every detail of your project aligns with your vision.</p>
+              </div>
+            </div>
+            <div class="why-item reveal">
+              <div class="why-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M12 2L13.9 8.3H20.5L15.3 11.9L17.2 18.2L12 14.6L6.8 18.2L8.7 11.9L3.5 8.3H10.1L12 2Z" fill="#C4A96A"/></svg>
+              </div>
+              <div>
+                <h4>Exceptional Quality</h4>
+                <p>Our work is built to last. Includes a minimum 2-year warranty. We use only the finest materials and follow industry-leading standards.</p>
+              </div>
+            </div>
+            <div class="why-item reveal">
+              <div class="why-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M12 2L13.9 8.3H20.5L15.3 11.9L17.2 18.2L12 14.6L6.8 18.2L8.7 11.9L3.5 8.3H10.1L12 2Z" fill="#C4A96A"/></svg>
+              </div>
+              <div>
+                <h4>Prompt, Professional Service</h4>
+                <p>We respect your time. From your first inquiry to the final brushstroke, we promise clear communication and a professional approach every step of the way.</p>
+              </div>
+            </div>
+            <div class="why-item reveal">
+              <div class="why-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M12 2L13.9 8.3H20.5L15.3 11.9L17.2 18.2L12 14.6L6.8 18.2L8.7 11.9L3.5 8.3H10.1L12 2Z" fill="#C4A96A"/></svg>
+              </div>
+              <div>
+                <h4>24-Month Warranty</h4>
+                <p>We offer workmanship warranties based on the paint products and services selected. Honest coverage and realistic expectations.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials-section" id="testimonials">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-label">Reviews</span>
+          <h2>Loved by Homeowners and Businesses</h2>
+          <p>Trusted painting reviews from Orange County clients. All reviews verified via Google.</p>
+        </div>
+        <div class="testimonials-grid">
+
+          <div class="testimonial-card reveal">
+            <div class="stars-row">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+            <p>"Custom Painting did an excellent job in my home. They painted the walls and doors, repaired patches and holes, and even removed the blinds to paint behind them. The quality of the work is beautiful—clean lines, smooth walls, and everything looks brand new. Candy and Greg were fantastic. They are very professional, detail-oriented, respectful, and always on time. I highly recommend Custom Painting. Great communication, excellent work, and a team you can trust."</p>
+            <div class="reviewer">
+              <div class="reviewer-info">
+                <strong>Diane</strong>
+                <span>Google Review</span>
+              </div>
+              <img loading="lazy" src="assets/images/badge-google.png" alt="Google" width="20" height="20">
+            </div>
+          </div>
+
+          <div class="testimonial-card reveal">
+            <div class="stars-row">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+            <p>"We have used Custom Painting &amp; Decorating twice now, and will be using them a third and fourth time in the future. They are great! They do great work, they are efficient, easy to communicate with, and reasonable on price. Mario, Juan, &amp; Alex were our crew this time. Thrilled with the work, would highly recommend!"</p>
+            <div class="reviewer">
+              <div class="reviewer-info">
+                <strong>Ryan Lowen</strong>
+                <span>Google Review</span>
+              </div>
+              <img loading="lazy" src="assets/images/badge-google.png" alt="Google" width="20" height="20">
+            </div>
+          </div>
+
+          <div class="testimonial-card reveal">
+            <div class="stars-row">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+            <p>"Very happy with the experience and results. Cesar was great to work with and Edwin exceeded our expectations with regard to the quality of the work from start to finish. I will be reaching out to Cesar again with regard to another project."</p>
+            <div class="reviewer">
+              <div class="reviewer-info">
+                <strong>Tim Clarke</strong>
+                <span>Google Review</span>
+              </div>
+              <img loading="lazy" src="assets/images/badge-google.png" alt="Google" width="20" height="20">
+            </div>
+          </div>
+
+          <div class="testimonial-card reveal">
+            <div class="stars-row">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+            <p>"These guys are fantastic. Juan and Victor are amazing. Great work ethics and friendly. Do fantastic work painting and respectful. They did a 6 day project painting all the interior of my home; 4 bedrooms, 2 bathrooms. Definitely would recommend anyone interested in getting their property painted."</p>
+            <div class="reviewer">
+              <div class="reviewer-info">
+                <strong>LeeBo</strong>
+                <span>Google Review</span>
+              </div>
+              <img loading="lazy" src="assets/images/badge-google.png" alt="Google" width="20" height="20">
+            </div>
+          </div>
+
+          <div class="testimonial-card reveal">
+            <div class="stars-row">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+            <p>"Great customer experience with Dulce and Greg. They did such a great job painting and I am so happy with Custom Painting and Decorating. Definitely recommend using their business if you are looking for talented individuals and an exceptional experience."</p>
+            <div class="reviewer">
+              <div class="reviewer-info">
+                <strong>Vanessa L</strong>
+                <span>Google Review</span>
+              </div>
+              <img loading="lazy" src="assets/images/badge-google.png" alt="Google" width="20" height="20">
+            </div>
+          </div>
+
+          <div class="testimonial-card reveal">
+            <div class="stars-row">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+            <p>"The job was done excellently and looks beautiful."</p>
+            <div class="reviewer">
+              <div class="reviewer-info">
+                <strong>Rene Ellis</strong>
+                <span>Google Review</span>
+              </div>
+              <img loading="lazy" src="assets/images/badge-google.png" alt="Google" width="20" height="20">
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section" id="faq">
+      <div class="container faq-inner">
+        <div class="section-header reveal">
+          <span class="section-label">FAQ</span>
+          <h2>Everything You Need to Know</h2>
+        </div>
+        <div class="faq-list">
+          <details class="faq-item reveal">
+            <summary>What painting services do you offer in Orange County?</summary>
+            <div class="faq-answer">
+              <p>We provide complete house painting services for residential and commercial properties across Orange County, CA. Our services include interior painting, exterior house painting, cabinet painting, drywall installation and repair, and specialty finishes. Each painting project is tailored to your specific needs, property type, and timeline.</p>
+            </div>
+          </details>
+          <details class="faq-item reveal">
+            <summary>Are you licensed and insured painting contractors?</summary>
+            <div class="faq-answer">
+              <p>Yes, Custom Painting &amp; Decorating Inc. is fully licensed and insured in California. Our local painting company follows industry standards for safety, preparation, and application. This gives Orange County homeowners and businesses peace of mind when hiring our team.</p>
+            </div>
+          </details>
+          <details class="faq-item reveal">
+            <summary>Do you provide interior and exterior house painting?</summary>
+            <div class="faq-answer">
+              <p>We specialize in both interior and exterior house painting services for homes and commercial buildings. Our interior painting covers walls, ceilings, trim, cabinets, and detailed finishes. Exterior painting includes stucco, siding, brick, and other surfaces designed to withstand California conditions.</p>
+            </div>
+          </details>
+          <details class="faq-item reveal">
+            <summary>How long does a typical painting project take?</summary>
+            <div class="faq-answer">
+              <p>Project timelines vary based on the size of the property, surface conditions, and scope of work. Interior painting projects may take a few days, while exterior house painting or commercial painting projects may require additional time. We provide clear timelines during the quote phase so you know what to expect.</p>
+            </div>
+          </details>
+          <details class="faq-item reveal">
+            <summary>What kind of paint products do you use?</summary>
+            <div class="faq-answer">
+              <p>We use high-quality paint products from trusted manufacturers, including Sherwin Williams and Dunn Edwards. Product selection depends on the surface type, location, and desired finish. Using the right materials ensures durability, color retention, and long-term performance.</p>
+            </div>
+          </details>
+          <details class="faq-item reveal">
+            <summary>Do you offer a workmanship warranty?</summary>
+            <div class="faq-answer">
+              <p>We offer workmanship warranties based on the paint products and services selected for each project. Warranty coverage is explained clearly before work begins so expectations are always aligned. Our commitment to quality workmanship stands behind every completed job.</p>
+            </div>
+          </details>
+          <details class="faq-item reveal">
+            <summary>How soon can you start a painting project in Orange County?</summary>
+            <div class="faq-answer">
+              <p>Most painting projects begin within 1 to 3 weeks depending on the scope of work, surface conditions, and current scheduling availability. Our local painting company prioritizes clear timelines so Orange County homeowners and businesses can plan with confidence. Contact us today to schedule your free estimate and secure your spot on our calendar.</p>
+            </div>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- Service Areas -->
+    <section class="areas-section" id="areas">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-label">Service Areas</span>
+          <h2>Proudly Serving Southern California</h2>
+          <p>Professional painting services across Orange County and surrounding areas.</p>
+        </div>
+        <div class="areas-grid reveal">
+          <span>Anaheim, CA</span><span>Brea, CA</span><span>Capistrano Beach, CA</span>
+          <span>Corona del Mar, CA</span><span>Costa Mesa, CA</span><span>Dana Point, CA</span>
+          <span>Foothill Ranch, CA</span><span>Fullerton, CA</span><span>Huntington Beach, CA</span>
+          <span>Irvine, CA</span><span>Laguna Beach, CA</span><span>Laguna Hills, CA</span>
+          <span>Laguna Niguel, CA</span><span>Mission Viejo, CA</span><span>Newport Beach, CA</span>
+          <span>Orange, CA</span><span>Placentia, CA</span><span>San Clemente, CA</span>
+          <span>Santa Ana, CA</span><span>Villa Park, CA</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section" id="contact">
+      <div class="container contact-grid">
+        <div class="contact-info reveal">
+          <span class="section-label">Contact Us</span>
+          <h2>Your Project Starts with One Simple Step</h2>
+          <p>Schedule your free quote today. Our team of house painters in Orange County helps homeowners and businesses achieve beautiful, long-lasting results.</p>
+          <div class="contact-details">
+            <div class="contact-item">
+              <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M16.5 13.5c-.8-.8-1.8-1.3-2.8-1.3-.5 0-1.2.2-1.6.6l-.9.9c-1.4-.8-2.7-2-3.5-3.5l.9-.9c.5-.4.7-1.1.7-1.6 0-1-.5-2-1.3-2.8-.6-.6-1.4-1-2.1-1-.7 0-1.4.3-2 .8L3 5.6C2.4 6.2 2 7 2 7.9c0 5.5 4.5 10 10.1 10 .9 0 1.7-.4 2.3-1l.9-.9c.5-.5.8-1.2.8-2 0-.7-.4-1.5-.9-2z" fill="#C4A96A"/></svg>
+              <div>
+                <strong>Phone</strong>
+                <a href="tel:9497752487">949-775-2487</a>
+              </div>
+            </div>
+            <div class="contact-item">
+              <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M10 2C6.7 2 4 4.7 4 8c0 4.5 6 10 6 10s6-5.5 6-10c0-3.3-2.7-6-6-6zm0 8.5c-1.4 0-2.5-1.1-2.5-2.5S8.6 5.5 10 5.5 12.5 6.6 12.5 8 11.4 10.5 10 10.5z" fill="#C4A96A"/></svg>
+              <div>
+                <strong>Location</strong>
+                <span>Anaheim, CA &mdash; Serving Orange County &amp; Surrounding Areas</span>
+              </div>
+            </div>
+            <div class="contact-item">
+              <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M10 2a8 8 0 100 16A8 8 0 0010 2zm1 11H9V9h2v4zm0-6H9V5h2v2z" fill="#C4A96A"/></svg>
+              <div>
+                <strong>Business Hours</strong>
+                <span>Mon&ndash;Fri: 7am&ndash;5pm<br>Sat&ndash;Sun: 8am&ndash;3pm</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="contact-form-wrap reveal">
+          <form class="contact-form" action="https://formspree.io/f/xjkvvqrb" method="POST">
+            <h3>Request a Free Quote</h3>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="cf-first">First Name</label>
+                <input type="text" id="cf-first" name="first_name" required>
+              </div>
+              <div class="form-group">
+                <label for="cf-last">Last Name</label>
+                <input type="text" id="cf-last" name="last_name" required>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="cf-email">Email</label>
+              <input type="email" id="cf-email" name="email" required>
+            </div>
+            <div class="form-group">
+              <label for="cf-phone">Phone</label>
+              <input type="tel" id="cf-phone" name="phone" required>
+            </div>
+            <div class="form-group">
+              <label for="cf-service">Service</label>
+              <select id="cf-service" name="service" required>
+                <option value="" disabled selected>Select Your Service</option>
+                <option>Interior Painting</option>
+                <option>Exterior Painting</option>
+                <option>Cabinet Painting</option>
+                <option>Drywall Repair</option>
+                <option>Trim &amp; Base Boards</option>
+                <option>Commercial Painting</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="cf-message">Message (optional)</label>
+              <textarea id="cf-message" name="message" rows="4" placeholder="Tell us about your project..."></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-full">Send My Request</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <img loading="lazy" src="assets/images/logo.png" alt="Custom Painting &amp; Decorating Inc." class="footer-logo" width="120" height="72">
+        <p class="footer-tagline">Your Walls. Our Care.</p>
+        <p>Family-owned painting contractors serving Orange County, CA since 2018.</p>
+        <a href="tel:9497752487" class="footer-phone">949-775-2487</a>
+      </div>
+      <div class="footer-col">
+        <h4>Residential Services</h4>
+        <ul>
+          <li><a href="#services">Interior Painting</a></li>
+          <li><a href="#services">Exterior Painting</a></li>
+          <li><a href="#services">Cabinet Painting</a></li>
+          <li><a href="#services">Drywall Repair</a></li>
+          <li><a href="#services">Trim &amp; Base Boards</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Commercial Services</h4>
+        <ul>
+          <li><a href="#services">Commercial Interior</a></li>
+          <li><a href="#services">Commercial Exterior</a></li>
+          <li><a href="#services">Commercial Drywall</a></li>
+          <li><a href="#services">Property Management</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Hours</h4>
+        <p>Mon&ndash;Fri: 7am&ndash;5pm<br>Sat&ndash;Sun: 8am&ndash;3pm</p>
+        <h4 style="margin-top:1rem">Service Area</h4>
+        <p>Anaheim, CA &mdash; Serving Orange County &amp; Surrounding Areas</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <p>&copy; 2026 Custom Painting &amp; Decorating Inc. All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <a href="tel:9497752487" class="cta-float" aria-label="Call now">
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M20.5 15.5c-.8-.8-1.8-1.3-2.8-1.3-.5 0-1.2.2-1.6.6l-.9.9c-1.4-.8-2.7-2-3.5-3.5l.9-.9c.5-.4.7-1.1.7-1.6 0-1-.5-2-1.3-2.8-.6-.6-1.4-1-2.1-1-.7 0-1.4.3-2 .8L7 7.6C6.4 8.2 6 9 6 9.9c0 5.5 4.5 10 10.1 10 .9 0 1.7-.4 2.3-1l.9-.9c.5-.5.8-1.2.8-2 0-.7-.4-1.5-.9-2z" fill="white"/></svg>
+    Call Now
+  </a>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
