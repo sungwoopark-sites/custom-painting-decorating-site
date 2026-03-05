@@ -94,12 +94,18 @@ ul { list-style: none; }
 /* ===== SECTION STYLES ===== */
 .section-label {
   display: inline-block;
-  color: var(--accent);
+  color: #8a6a1a;
   font-size: 0.8rem;
   font-weight: 700;
   letter-spacing: 0.15em;
   text-transform: uppercase;
   margin-bottom: 0.75rem;
+}
+
+/* Reversed section labels (on dark backgrounds) */
+.process-section .section-label,
+.areas-section .section-label {
+  color: var(--accent);
 }
 
 .section-header {
@@ -224,9 +230,14 @@ h4 { font-size: 1rem; font-weight: 700; color: var(--primary); }
 .hero-bg {
   position: absolute;
   inset: 0;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.hero-bg-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
 }
 
 .hero-overlay {
@@ -327,7 +338,7 @@ h4 { font-size: 1rem; font-weight: 700; color: var(--primary); }
   width: 100%;
 }
 
-.hero-form-card h2 {
+.hero-form-card h3 {
   font-size: 1.4rem;
   color: var(--primary);
   margin-bottom: 1.25rem;
